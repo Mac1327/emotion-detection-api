@@ -1,9 +1,8 @@
 PROJECT_ID=affable-radio-305810
-DOCKER_IMAGE_NAME=maikha
+DOCKER_IMAGE_NAME=emotion-detection-api
 
 project_id:
 	@gcloud config set project ${PROJECT_ID}
-
 docker_build:
 	@docker build -t eu.gcr.io/${PROJECT_ID}/${DOCKER_IMAGE_NAME} . 
 docker_run:
