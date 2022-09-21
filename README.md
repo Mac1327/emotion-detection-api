@@ -6,11 +6,11 @@
 ## Example usage:
 
 ### /
-https://emotion-detection-api-c7aaatrzsq-ew.a.run.app/
+https://{URL}/
 
 `{greeting:"Hello"}`
 
 ### /predict
-https://emotion-detection-api-c7aaatrzsq-ew.a.run.app/predict?text=%27Gromit,%20we%20have%20a%20problem!%27
+https://{URL}/predict?text=%27Gromit,%20we%20have%20a%20problem!%27
 
 `{label:"anger", 'score':0.9130342602729797}`
